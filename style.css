@@ -17,7 +17,7 @@ header .navbar  .navbar-header h4 {
     vertical-align: middle;
 }
 
-img {
+header nav img {
     width: 30px;
     margin-left: 10px;
 }
@@ -157,3 +157,31 @@ header nav.navbar {
         width: 16%;
     }
 }
+
+/* deploy */
+
+#deploy p {
+    color: rgb(136, 135, 135);
+}
+
+#deploy .text-center p {
+    color: rgb(136, 135, 135);
+    margin-bottom: 40px;
+}
+
+
+#deploy ul li {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+#deploy ul li a {
+    color: rgb(136, 135, 135);
+}
+
+#deploy .row .col-sm-6 > p {
+    margin-bottom: 30px;
+}
+
