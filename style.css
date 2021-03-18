@@ -1,0 +1,41 @@
+/* header - navbar */
+header .container {
+    line-height: 45px;
+}
+
+header .navbar  .navbar-header h4 {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(40, 128, 244);
+}
+
+img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+header nav button.sign-in {
+    color: rgb(40, 128, 244);
+    border-color: rgb(40, 128, 244);
+
+}
+
+header .container .ul-right {
+    margin-left: 80px;
+}
+
+header .navbar button .icon-bar {
+    background-color: rgb(40, 128, 244);
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    header nav .navbar-toggle {
+        display: block;
+    }
+}
+
+/* hero */
