@@ -1,3 +1,12 @@
+.color-blue {
+    color: rgb(40, 128, 244);
+
+}
+
+section {
+    padding: 50px 0;
+}
+
 /* header - navbar */
 header .container {
     line-height: 45px;
@@ -6,7 +15,6 @@ header .container {
 header .navbar  .navbar-header h4 {
     display: inline-block;
     vertical-align: middle;
-    color: rgb(40, 128, 244);
 }
 
 img {
@@ -19,7 +27,6 @@ header nav ul li a {
 }
 
 header nav button.sign-in {
-    color: rgb(40, 128, 244);
     border-color: rgb(40, 128, 244);
 
 }
@@ -38,4 +45,110 @@ header .navbar button .icon-bar {
     }
 }
 
+header nav.navbar {
+    margin-bottom: 0;
+}
+
 /* hero */
+
+#hero {
+    background-image: url(img/bg-banner-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h1 {
+    color: white;
+}
+
+#hero .col-sm-7 p {
+    color: rgb(175, 196, 250);
+}
+
+.box {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+
+.box > input,
+.box > button {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    line-height: 30px;
+    padding-left:10px;
+    margin: 5px 0;
+}
+
+.box input {
+    border: 1px solid rgb(192, 191, 191);
+
+}
+
+.box button.create {
+    border: none;
+    background-color: rgb(40, 128, 244);
+    color: white;
+}
+
+.box button.sign-goolge {
+    border: none;
+    background-color: transparent;
+    box-shadow: 2px 2px 1px rgb(231, 230, 230);
+    position: relative;
+}
+
+.box button .fa-google {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+#hero .box p {
+    margin-top: 10px;
+}
+
+#hero .box p a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 495px) and (max-width: 767px) {
+    .box {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+/* logo */
+
+#logo {
+    background-color: rgb(243, 245, 249);
+
+}
+
+#logo h5 {
+    color: rgb(136, 135, 135);
+}
+
+.container-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}
+
+.container-logo img {
+    width: 100%;
+    background-color: rgb(250, 245, 245);
+
+}
+
+#logo a {
+    padding: 10px;
+}
+
+#logo a span {
+    font-size: 10px;
+}
