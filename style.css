@@ -35,7 +35,7 @@ section .my-card {
     margin-bottom: 20px;
 }
 
-a span.glyphicon-chevron-right {
+a span.glyphicon {
     font-size: 10px;
 }
 
@@ -45,46 +45,61 @@ a:hover {
 }
 
 /* header - navbar */
-header .container {
-    line-height: 45px;
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-header .navbar  .navbar-header h4 {
-    display: inline-block;
-    vertical-align: middle;
+nav img {
+    width: 100%;
+    max-width: 200px;
 }
 
-header nav img {
-    width: 150px;
-    margin-left: 10px;
+/* hamburger */
+header nav .my-hamburger {
+    padding: 10px;
+    text-align: right;
 }
 
-header nav ul li a {
-    color: black;
+header nav .my-hamburger button {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
 }
 
-header nav button.sign-in {
-    border-color: rgb(40, 128, 244);
-
-}
-
-header .container .ul-right {
-    margin-left: 50px;
-}
-
-header .navbar button .icon-bar {
+header nav .my-hamburger button .icon-bar {
     background-color: rgb(40, 128, 244);
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    margin: 3px;
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-    header nav .navbar-toggle {
-        display: block;
-    }
+/* menu list */
+
+header ul li {
+    padding: 5px;
+    border-radius: 4px;
 }
 
-header nav.navbar {
-    margin-bottom: 0;
+header ul li a {
+    padding: 5px;
 }
+
+.btn-sign-in {
+    border: 1px solid rgb(40, 128, 244);
+}
+
+.bg-hover-blu:hover {
+    background-color: rgb(243, 245, 249);
+}
+
+
+
+
+
 
 /* hero */
 

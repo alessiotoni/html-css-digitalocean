@@ -19,77 +19,45 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <div class="container bg-green">
-                <div class="navbar-header pull-left">
-                    <img src="img/logo.png" alt="">  
-                </div>
-                <button type="button" class="navbar-toggle collapsed">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <div class="container">
+            <nav>
+                <div class="row bg-red">
+                    <div class="col-xs-8 col-md-3">
+                        <div bg-blu>
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
 
-                <!-- ul navbar -->
-                <div class="visible-md-inline-block visible-lg-inline-block navbar-collapse pull-right">
+                    <!-- hamburger -->
+                    <div class="col-xs-4 my-hamburger hidden-md hidden-lg">
+                        <button type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
 
-                    <!-- ul centrale -->
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products 
-                              <span class="caret"></span>
-                            </a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                            <a href="#">Customers</a>
-                        </li>
-                        <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community 
-                                <span class="caret"></span>
-                              </a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                    </ul>
-
-                    <!-- ul di destra -->
-                    <ul class="nav navbar-nav ul-right">
-                        <li>
-                            <a href="#">Docs</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support 
-                              <span class="caret"></span>
-                            </a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                            <a href="#">login</a>
-                        </li>
-                        
-                        <li>
-                            <button type="button" class="btn btn-default navbar-btn sign-in text-blue">Sign in</button>
-                        </li>
-                    </ul>
+                    <!-- navbar -->
+                    <div class="col-md-5 hidden-xs hidden-sm dimensioni bg-viola text-center">
+                        <ul class="list-inline">
+                            <li class="bg-hover-blu" class="bg-hover-blu"><a class="text-darkblue" href="#">Producs <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Customers</a></li>
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Community <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 hidden-xs hidden-sm bg-blu text-right">
+                        <ul class="list-inline">
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Docs</a></li>
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Support <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+                            <li class="bg-hover-blu"><a class="text-darkblue" href="#">Login</a></li>
+                            <li class="btn-sign-in"><a class="text-blue" href="#">Sing Up</a></li>
+                        </ul>
+                    </div>
 
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -256,64 +224,64 @@
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region border-none">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 mrg-top">
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                         <div class="row region border-none">
                             <div class="col-xs-1 text-white"><strong>AMS2</strong></div>
                             <div class="col-xs-offset-1 col-xs-6 text-gray"><strong>Amsterdam, Nederlans</strong></div>
-                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></strong></a> </div>
+                            <div class="col-xs-4"><strong> <a href="#" class="text-gray">Test speed <span class="glyphicon glyphicon-chevron-right"></span></a></strong> </div>
                         </div>
                     </div>
                 </div>
@@ -349,6 +317,7 @@
             </div>
         </section>
 
+        <!-- get started -->
         <section class="get-started text-center">
             <h2 class="text-white">Get started now.</h2>
             <a href="#" class="btn btn-lg btn-create text-blue bg-lightgray" role="button">Create your account</a>
@@ -356,6 +325,7 @@
 
     </main>
 
+    <!-- footer -->
     <footer>
         <section>
             <div class="container">
