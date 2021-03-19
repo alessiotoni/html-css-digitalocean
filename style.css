@@ -11,6 +11,10 @@
     color: rgb(40, 128, 244);
 }
 
+.text-darkblue {
+    color: rgb(0, 0, 58);   
+}
+
 section {
     padding: 50px 0;
 }
@@ -33,6 +37,10 @@ section .my-card {
 
 a span.glyphicon-chevron-right {
     font-size: 10px;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* header - navbar */
@@ -221,6 +229,14 @@ header nav.navbar {
     margin-bottom: 30px;
 }
 
+section.sliders .center-block .box h5.text-darkblue {
+    margin: 0;
+}
+
+section.sliders .center-block .box p.text-darkblue{
+    margin: 0 0 20px 0;
+}
+
 /* business */
 
 #business h2 {
@@ -300,4 +316,42 @@ footer ul.list-footer {
 footer ul.list-footer li {
     margin-bottom: 10px;
 }
+
+/* fixed button */
+
+.container-btn-fixed {
+    padding-bottom: 15px;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.container-btn-fixed a.shark {
+    width: 55px;
+    display: block;
+    padding: 5px 0;
+    border-radius: 4px;
+    background-color: rgb(38, 109, 246);
+    margin-bottom: 10px;
+}
+
+.container-btn-fixed a.shark img {
+    width: 100%;
+}
+
+.container-btn-fixed a .box {
+    padding: 5px;
+    max-width: 300px;
+    margin: 0;
+    box-shadow: 2px 2px 1px rgb(163, 162, 162);
+}
+
+@media screen and (min-width: 992px) {
+    .container-btn-fixed a {
+        float: right;
+        margin-left: 10px;
+        
+    }
+}
+
 
