@@ -250,3 +250,13 @@ header nav.navbar {
 .border-none {
     border: none;
 }
+
+/* get-started */
+
+section.get-started {
+    background-color: #1d2580;
+}
+
+.get-started h2 {
+    margin-bottom: 30px;
+}
