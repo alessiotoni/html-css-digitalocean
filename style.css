@@ -246,11 +246,11 @@ section.sliders .center-block .box p.text-darkblue{
 
 /* regions */
 
-#regions {
+.regions {
     background: linear-gradient(#2e41eb, #1d2580);
 }
 
-#regions .col-xs-4 {
+.regions .col-xs-4 {
     text-align: right;
 }
 
@@ -266,6 +266,10 @@ section.sliders .center-block .box p.text-darkblue{
 
 .border-none {
     border: none;
+}
+
+section.regions .region a:hover {
+    color: white;
 }
 
 /* get-started */
@@ -343,6 +347,27 @@ footer ul.list-footer li a:hover {
     border-radius: 4px;
     background-color: rgb(38, 109, 246);
     margin-bottom: 10px;
+    position: relative;
+}
+
+.container-btn-fixed a.shark .notifica {
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+.container-btn-fixed a.shark .notifica span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+
 }
 
 .container-btn-fixed a.shark img {
