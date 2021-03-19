@@ -3,6 +3,10 @@
     background-color: rgb(243, 245, 249);
 }
 
+.text-white {
+    color: white;
+}
+
 .text-blue {
     color: rgb(40, 128, 244);
 }
@@ -75,10 +79,6 @@ header nav.navbar {
     background-image: url(img/bg-banner-home.jpg);
     background-position: center;
     background-size: cover;
-}
-
-#hero h1 {
-    color: white;
 }
 
 #hero .col-sm-7 p {
@@ -224,4 +224,28 @@ header nav.navbar {
 
 #business a span {
     font-size: 10px;
+}
+
+/* regions */
+
+#regions {
+    background: linear-gradient(#2e41eb, #1d2580);
+}
+
+#regions .col-xs-4 {
+    text-align: right;
+}
+
+.region {
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mrg-top {
+    margin-top: 30px;
+}
+
+.border-none {
+    border: none;
 }
