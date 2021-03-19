@@ -1,6 +1,9 @@
 
+.bg-lightgray {
+    background-color: rgb(243, 245, 249);
+}
 
-.color-blue {
+.text-blue {
     color: rgb(40, 128, 244);
 }
 
@@ -14,6 +17,14 @@ section {
 
 .inline-block {
     display: inline-block;
+}
+
+section .my-card > h5 {
+    margin: 20px 0 25px 0;
+}
+
+section .my-card {
+    margin-bottom: 20px;
 }
 
 /* header - navbar */
@@ -74,15 +85,15 @@ header nav.navbar {
     color: rgb(175, 196, 250);
 }
 
-.box {
+#hero .box {
     width: 100%;
     background-color: white;
     border-radius: 5px;
     padding: 30px 10px;
 }
 
-.box > input,
-.box > button {
+#hero .box > input,
+#hero .box > button {
     max-width: 350px;
     width: 100%;
     border-radius: 5px;
@@ -125,18 +136,13 @@ header nav.navbar {
 }
 
 @media screen and (min-width: 495px) and (max-width: 767px) {
-    .box {
+    #hero .box {
         max-width: 500px;
         margin: auto;
     }
 }
 
 /* logo */
-
-#logo {
-    background-color: rgb(243, 245, 249);
-
-}
 
 #logo a {
     padding: 10px;
@@ -165,15 +171,6 @@ header nav.navbar {
 
 /* deploy */
 
-#deploy p {
-    color: rgb(136, 135, 135);
-}
-
-#deploy .text-center p {
-    margin-bottom: 40px;
-}
-
-
 #deploy ul li {
     border-top: none;
     border-bottom: none;
@@ -181,15 +178,7 @@ header nav.navbar {
     border-radius: 0;
 }
 
-#deploy .row .col-sm-6 > p {
-    margin-bottom: 30px;
-}
-
 /* slider */
-
-#slider {
-    background-color: rgb(243, 245, 249);
-}
 
 #slider .center-block {
     margin-top: 100px;
@@ -221,9 +210,18 @@ header nav.navbar {
     height: 10px;
     border-radius: 50%;
     border: 1px solid rgb(40, 128, 244);
-
 }
 
 #slider .circle-blu.full {
     background-color: rgb(40, 128, 244);
+}
+
+/* business */
+
+#business h2 {
+    margin-bottom: 40px;
+}
+
+#business a span {
+    font-size: 10px;
 }
