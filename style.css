@@ -96,11 +96,6 @@ header ul li a {
     background-color: rgb(243, 245, 249);
 }
 
-
-
-
-
-
 /* hero */
 
 #hero {
@@ -148,11 +143,16 @@ header ul li a {
     position: relative;
 }
 
-.box button .fa-google {
+#hero .box .container-google-logo {
+    width: 20px;
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
+}
+
+#hero .box .container-google-logo img {
+    width: 100%;
 }
 
 .box p {
