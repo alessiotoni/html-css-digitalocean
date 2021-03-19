@@ -41,6 +41,7 @@ a span.glyphicon-chevron-right {
 
 a:hover {
     text-decoration: none;
+    color: #1d2580;
 }
 
 /* header - navbar */
@@ -314,8 +315,17 @@ footer ul.list-footer {
 }
 
 footer ul.list-footer li {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
+
+footer ul.list-footer li a {
+    padding: 10px;
+}
+
+footer ul.list-footer li a:hover {
+    color: white;
+}
+
 
 /* fixed button */
 
@@ -347,10 +357,13 @@ footer ul.list-footer li {
 }
 
 @media screen and (min-width: 992px) {
+    .container-btn-fixed {
+        right: 10px; 
+    }
+
     .container-btn-fixed a {
-        float: right;
-        margin-left: 10px;
-        
+        float:right;
+        margin-right: 10px;
     }
 }
 
