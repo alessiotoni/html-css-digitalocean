@@ -1,10 +1,19 @@
+
+
 .color-blue {
     color: rgb(40, 128, 244);
-
 }
 
 section {
     padding: 50px 0;
+}
+
+.text-gray {
+    color: rgb(136, 135, 135);
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* header - navbar */
@@ -129,10 +138,6 @@ header nav.navbar {
 
 }
 
-#logo h5 {
-    color: rgb(136, 135, 135);
-}
-
 #logo a {
     padding: 10px;
 }
@@ -165,7 +170,6 @@ header nav.navbar {
 }
 
 #deploy .text-center p {
-    color: rgb(136, 135, 135);
     margin-bottom: 40px;
 }
 
@@ -177,11 +181,49 @@ header nav.navbar {
     border-radius: 0;
 }
 
-#deploy ul li a {
-    color: rgb(136, 135, 135);
-}
-
 #deploy .row .col-sm-6 > p {
     margin-bottom: 30px;
 }
 
+/* slider */
+
+#slider {
+    background-color: rgb(243, 245, 249);
+}
+
+#slider .center-block {
+    margin-top: 100px;
+    max-width: 700px;
+}
+
+#slider .center-block > div {
+    vertical-align: middle;
+}
+
+#slider .center-block [class*="arrow-"] {
+    width: 10%;
+}
+
+#slider .center-block .slider {
+    width: 78%;
+}
+
+#slider .center-block .slider .container-slide img {
+    width: 100%;
+}
+
+#slider .center-block .slider .container-slide p {
+    margin: 20px 0 50px 0;
+}
+
+#slider .circle-blu {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(40, 128, 244);
+
+}
+
+#slider .circle-blu.full {
+    background-color: rgb(40, 128, 244);
+}
