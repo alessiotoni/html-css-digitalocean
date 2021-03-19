@@ -46,7 +46,7 @@ header .navbar  .navbar-header h4 {
 }
 
 header nav img {
-    width: 30px;
+    width: 150px;
     margin-left: 10px;
 }
 
@@ -60,7 +60,7 @@ header nav button.sign-in {
 }
 
 header .container .ul-right {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 header .navbar button .icon-bar {
