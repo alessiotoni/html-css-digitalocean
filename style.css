@@ -31,6 +31,10 @@ section .my-card {
     margin-bottom: 20px;
 }
 
+a .glyphicon-chevron-right {
+    font-size: 10px;
+}
+
 /* header - navbar */
 header .container {
     line-height: 45px;
@@ -85,7 +89,7 @@ header nav.navbar {
     color: rgb(175, 196, 250);
 }
 
-#hero .box {
+.box {
     width: 100%;
     background-color: white;
     border-radius: 5px;
@@ -127,7 +131,7 @@ header nav.navbar {
     transform: translateY(-50%);
 }
 
-#hero .box p {
+.box p {
     margin-top: 10px;
 }
 
@@ -146,10 +150,6 @@ header nav.navbar {
 
 #logo a {
     padding: 10px;
-}
-
-#logo a span {
-    font-size: 10px;
 }
 
 .container-logo {
@@ -180,50 +180,51 @@ header nav.navbar {
 
 /* slider */
 
-#slider .center-block {
+.sliders .center-block {
     margin-top: 100px;
     max-width: 700px;
 }
 
-#slider .center-block > div {
+.sliders .center-block > div {
     vertical-align: middle;
 }
 
-#slider .center-block [class*="arrow-"] {
+.sliders .center-block [class*="arrow-"] {
     width: 10%;
 }
 
-#slider .center-block .slider {
+.sliders .center-block .slider {
     width: 78%;
 }
 
-#slider .center-block .slider .container-slide img {
+.sliders .center-block .slider .container-slide img {
     width: 100%;
 }
 
-#slider .center-block .slider .container-slide p {
-    margin: 20px 0 50px 0;
+.sliders .center-block .slider .container-slide p {
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-#slider .circle-blu {
+.sliders .circle-blu {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     border: 1px solid rgb(40, 128, 244);
 }
 
-#slider .circle-blu.full {
+.sliders .circle-blu.full {
     background-color: rgb(40, 128, 244);
+}
+
+.sliders .box {
+    margin-bottom: 30px;
 }
 
 /* business */
 
 #business h2 {
     margin-bottom: 40px;
-}
-
-#business a span {
-    font-size: 10px;
 }
 
 /* regions */
