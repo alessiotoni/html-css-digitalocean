@@ -349,23 +349,22 @@ footer ul.list-footer li a:hover {
 /* fixed button */
 
 .container-btn-fixed {
-    padding-bottom: 15px;
     position: fixed;
-    left: 10px;
-    bottom: 10px;
+    left: 20px;
+    bottom: 20px;
 }
 
-.container-btn-fixed a.shark {
+.container-btn-fixed .shark {
     width: 55px;
     display: block;
     padding: 5px 0;
     border-radius: 4px;
     background-color: rgb(38, 109, 246);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     position: relative;
 }
 
-.container-btn-fixed a.shark .notifica {
+.container-btn-fixed .shark .notifica {
     width: 24px;
     height: 24px;
     background-color: red;
@@ -376,7 +375,7 @@ footer ul.list-footer li a:hover {
     right: -12px;
 }
 
-.container-btn-fixed a.shark .notifica span {
+.container-btn-fixed .shark .notifica span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -385,26 +384,66 @@ footer ul.list-footer li a:hover {
 
 }
 
-.container-btn-fixed a.shark img {
+.container-btn-fixed .shark img {
     width: 100%;
 }
 
-.container-btn-fixed a .box {
+.container-btn-fixed .box {
     padding: 5px;
-    max-width: 300px;
+    max-width: 280px;
+    display: inline-block;
     margin: 0;
-    box-shadow: 2px 2px 1px rgb(163, 162, 162);
+    background-color: rgb(231, 231, 230);
+    position: relative;
+}
+
+.container-btn-fixed .box p {
+    margin: 0;
+}
+
+.container-btn-fixed .box p a:hover {
+    color: rgb(0, 0, 58);   
+    
+}
+
+
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid rgb(231, 231, 230);
+    position: absolute;
+    top: -8px;
+    left: 8px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-left: 8px solid rgb(231, 231, 230);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    right: -8px;
+    bottom: 8px;
 }
 
 @media screen and (min-width: 992px) {
     .container-btn-fixed {
-        right: 10px; 
+        right: 20px; 
     }
 
-    .container-btn-fixed a {
+    .container-btn-fixed .shark,
+    .container-btn-fixed .box  {
         float:right;
-        margin-right: 10px;
+        margin: 0;
     }
-}
 
+    .container-btn-fixed .box {
+        margin-right: 15px;
+    }
+
+}
 
