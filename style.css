@@ -1,3 +1,4 @@
+/* utility */
 
 .bg-lightgray {
     background-color: rgb(243, 245, 249);
@@ -15,12 +16,16 @@
     color: rgb(0, 0, 58);   
 }
 
+.text-gray {
+    color: rgb(136, 135, 135);
+}
+
 section {
     padding: 50px 0;
 }
 
-.text-gray {
-    color: rgb(136, 135, 135);
+ul {
+    list-style: none;
 }
 
 .inline-block {
@@ -44,6 +49,10 @@ a:hover {
     color: #1d2580;
 }
 
+.width100 {
+    width: 100%;
+}
+
 /* header - navbar */
 
 nav {
@@ -52,7 +61,6 @@ nav {
 }
 
 nav img {
-    width: 100%;
     max-width: 200px;
 }
 
@@ -109,7 +117,6 @@ header ul li a {
 }
 
 .box {
-    width: 100%;
     background-color: white;
     border-radius: 5px;
     padding: 30px 10px;
@@ -118,7 +125,6 @@ header ul li a {
 #hero .box > input,
 #hero .box > button {
     max-width: 350px;
-    width: 100%;
     border-radius: 5px;
     line-height: 30px;
     padding-left:10px;
@@ -127,13 +133,11 @@ header ul li a {
 
 .box input {
     border: 1px solid rgb(192, 191, 191);
-
 }
 
 .box button.create {
     border: none;
     background-color: rgb(40, 128, 244);
-    color: white;
 }
 
 .box button.sign-goolge {
@@ -149,10 +153,6 @@ header ul li a {
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-}
-
-#hero .box .container-google-logo img {
-    width: 100%;
 }
 
 .box p {
@@ -177,13 +177,11 @@ header ul li a {
 }
 
 .container-logo {
-    display: inline-block;
     vertical-align: middle;
     width: 49%;
 }
 
 .container-logo img {
-    width: 100%;
     padding: 10px;
 }
 
@@ -192,6 +190,14 @@ header ul li a {
         width: 16%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .container-logo {
+        max-width: 250px;
+    }
+}
+
+
 
 /* deploy */
 
@@ -221,13 +227,8 @@ header ul li a {
     width: 78%;
 }
 
-.sliders .center-block .slider .container-slide img {
-    width: 100%;
-}
-
 .sliders .center-block .slider .container-slide p {
     margin-bottom: 50px;
-    margin-top: 30px;
 }
 
 .sliders .circle-blu {
@@ -316,24 +317,12 @@ footer section p {
     margin: 0;
 }
 
-.text-darkgray {
-    color: rgb(124, 133, 155);
-}
-
-.padding-0 {
-    padding-left: 0;
-}
-
 footer ul.list-social li {
-    display: inline-block;
     margin-right: 10px;
     margin-top: 10px;
 }
 
-footer .list-footer {
-    list-style: none;
-}
-
+footer ul.list-social,
 footer ul.list-footer {
     padding-left: 0;
 }
@@ -388,14 +377,9 @@ footer ul.list-footer li a:hover {
     font-size: 10px;
 }
 
-.container-btn-fixed .shark img {
-    width: 100%;
-}
-
 .container-btn-fixed .box {
     padding: 5px;
     max-width: 280px;
-    display: inline-block;
     margin: 0;
     background-color: rgb(231, 231, 230);
     position: relative;
@@ -439,11 +423,7 @@ footer ul.list-footer li a:hover {
     .container-btn-fixed .shark,
     .container-btn-fixed .box  {
         float:right;
-        margin: 0;
-    }
-
-    .container-btn-fixed .box {
-        margin-right: 15px;
+        margin: 0 0 0 15px;
     }
 
 }
