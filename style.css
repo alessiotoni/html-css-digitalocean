@@ -276,11 +276,13 @@ section.sliders .center-block .box p.text-darkblue{
 .width20 {
     width: 20%;
 }
+
 .width50 {
     width: 50%;
 }
+
 .width30 {
-    width: 28%;
+    width: 30%;
     text-align: right;
 }
 
@@ -304,7 +306,7 @@ section.sliders .center-block .box p.text-darkblue{
 @media screen and (min-width: 992px) {
     .regions ul {
         width: 48%;
-        /* width: calc (100% / 2 -10px); */
+        /* width: calc (100% / 2 -20px); */
         float: left;
     }
 
@@ -315,7 +317,6 @@ section.sliders .center-block .box p.text-darkblue{
         margin-left: 10px;
     }
 }
-
 
 /* get-started */
 
